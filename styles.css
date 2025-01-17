@@ -26,9 +26,41 @@ p{
 
 .description{
     width: 600px;
+    font-size: 200px;
+}
+.description, #shrinksize{
+    width: 600px;
+    font-size: 50px;
 }
 
+h3, .smallerheader{
+    width: 600px;
+    margin-top: -10px;
+}
 .left{
     width: 600px;
+    height: 1000px;
+    float: left;
+    margin-top: auto;
+
+}
+
+.right{
+    width: 600px;
+    height: 1000px;
+    float: left;
+    margin-left: 150px;
+}
+
+.smallerheader-ingredients{
+    margin: -80px;
+}
+
+.otherRecipesDiv{
+    width: 250px;
+    float: left;
+}
+
+footer{
     float: left;
 }
