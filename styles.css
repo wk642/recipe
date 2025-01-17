@@ -1,6 +1,10 @@
 body{
-    background-color: rgb(150,230,243 );
+    background-color:#57d6ff;
+}
+
+h1, h2, h3{
+    color: #2b6b80;
 }
 p{
-    color: blue;
+    color: #36869f;
 }
