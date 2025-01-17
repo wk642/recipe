@@ -3,7 +3,11 @@
     font-weight: 400;
     font-style: normal;
   }  
-  
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
 body{
     background-color:#57d6ff;
     margin : 0px auto;
