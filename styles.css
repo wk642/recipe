@@ -27,3 +27,8 @@ p{
 .description{
     width: 600px;
 }
+
+.left{
+    width: 600px;
+    float: left;
+}
