@@ -6,9 +6,11 @@
   
 body{
     background-color:#57d6ff;
+    margin : 0px auto;
+    font-size: 25px;
 }
 
-h1, h2, h3{
+h1, h2{
     color: #ff8057;
     font-family: "Moo Lah Lah", serif;
     font-weight: 400;
@@ -26,22 +28,21 @@ p{
 
 .description{
     width: 600px;
-    font-size: 200px;
+    font-size: 100%;
+    color: darkblue
 }
-.description, #shrinksize{
-    width: 600px;
-    font-size: 50px;
-}
-
 h3, .smallerheader{
     width: 600px;
     margin-top: -10px;
+}
+#youtubeVideo{
+    margin : 0px auto;
 }
 .left{
     width: 600px;
     height: 1000px;
     float: left;
-    margin-top: auto;
+    margin-left: 50px;
 
 }
 
@@ -49,7 +50,8 @@ h3, .smallerheader{
     width: 600px;
     height: 1000px;
     float: left;
-    margin-left: 150px;
+    margin-left: 100px;
+    margin-right: 50px;
 }
 
 .smallerheader-ingredients{
