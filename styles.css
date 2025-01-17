@@ -13,7 +13,12 @@ h1, h2, h3{
     font-family: "Moo Lah Lah", serif;
     font-weight: 400;
     font-style: normal;   
-    font-size: 500%;
+    font-size: 450%;
+    text-align: center;
+    background: lightgrey;
+    text-shadow: black 1px 0 10px;
+    border: 10px solid black;
+    border-radius: 35px;
 }
 p{
     color: #36869f;
