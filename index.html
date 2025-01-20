@@ -5,11 +5,14 @@
         <title>Recipe Page</title>
         <meta charset = "utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
         <!-- Start of Bootstrap -->
         <!-- CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <!-- End of Bootstrap -->
+
         <link rel="stylesheet" href="styles.css">
+
         <!-- start of adding google font -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,83 +22,94 @@
     </head>
     <!-- End of header -->
 
-    <!-- Start of body-->
+    <!-- Start of body -->
     <body>
-        <!-- Step 03: title -->
-        <h1> Brown Sugar and Bacon Brussels Sprouts</h1>
-        <!-- End of Step 03: title -->
-        <!-- Start of Extensions (optional): Insert a YouTube video -->
-        <iframe id="youtubeVideo" width="420" height="315" src="https://www.youtube.com/embed/4PqZU-F3UFw?si=N4F5Sfn15WV_WJhc&amp;controls=0"></iframe>
+        <!-- Start of wrapper -->
+        <div id="wrapper">
 
-        <p> Video Credit : <a href="https://www.youtube.com/watch?v=4PqZU-F3UFw">Fresh Looks & Cooks </a></p>
+            <!-- Step 03: title -->
+            <h1> Brown Sugar and Bacon Brussels Sprouts</h1>
+            <!-- End of Step 03: title -->
 
-        <!-- End of Extensions (optional): Insert a YouTube video -->
-        <!-- Step 04: breif description -->
-        <div class="top col-xs-12">
-            <!--add description before image -->
-            <p class="description">Uhhhh... Brussel Sprouts with brown sugar and bacon!?!?!? like what can go wrong? NOTHING!</p>
-        </div>
-        <!-- End of Step 04: breif description -->
-        <!-- Start of class left -->
-        <div class="left col-xs-6">
-            <!-- Step 7 - Add at least one image -->
-            <div>
-                <!-- width of the image is at least 600 pixels -->
-                <img src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_1456,h_1092/k%2FPhoto%2FRecipes%2F2022-03_Brown-Sugar-Bacon-Brussels-Sprouts%2F2022-03-16_ATK-0113", width="600px"/>
+             <!-- Start of Extensions (optional): Insert a YouTube video -->
+            <iframe id="youtubeVideo" width="420" height="315" src="https://www.youtube.com/embed/4PqZU-F3UFw?si=N4F5Sfn15WV_WJhc&amp;controls=0"></iframe>
 
-                <!-- Underneath the image, include a photo credit that links to the source of the image. -->
-                <p>Photo credit: <a href="https://www.thekitchn.com/brown-sugar-bacon-brussels-sprouts-23312894">thekitchn</a></p>
+            <p> Video Credit : <a href="https://www.youtube.com/watch?v=4PqZU-F3UFw">Fresh Looks & Cooks </a></p>
+
+            <!-- End of Extensions (optional): Insert a YouTube video -->
+
+            <!-- Step 04: breif description -->
+            <!-- Start of div ".top col-xs12" -->
+            <div class="top col-12">
+                <!--add description before image -->
+                <p class="description">Uhhhh... Brussel Sprouts with brown sugar and bacon!?!?!? like what can go wrong? NOTHING!</p>
             </div>
-       
-            <!-- End of Step 7 - Add at least one image -->
+            <!-- End of div ".top col-xs12" -->
+            <!-- End of Step 04: breif description -->
 
-            <!-- Start of Step 5 - Add an unordered list of ingredients -->
-            <div>
-                <h3 id="smallerHeaders-ingredients">Ingredients:</h3>
-                <ul>
-                    <!-- Start of list-->
-                    <li>5 tablespoons olive oil, divided</li>
-                    <li>2 tablespoons packed light or dark brown sugar</li>
-                    <li>1/2 teaspoon kosher salt</li>
-                    <li>1/2 teaspoon freshly ground black pepper</li>
-                    <li>1 pound Brussels sprouts
-                    </li>
-                    <li>3 slices thick-cut bacon (about 4 ounces)</li>
-                    <!-- End of list -->
-                </ul>
-                <!-- End of Step 5 - Add an unordered list of ingredients -->
+            <!-- Start of ".left col-xs-6" -->
+            <div class="left col-12">
+                <!-- Step 7 - Add at least one image -->
+                <div>
+                    <!-- width of the image is at least 600 pixels -->
+                    <img src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_1456,h_1092/k%2FPhoto%2FRecipes%2F2022-03_Brown-Sugar-Bacon-Brussels-Sprouts%2F2022-03-16_ATK-0113", width="600px"/>
+
+                    <!-- Underneath the image, include a photo credit that links to the source of the image. -->
+                    <p>Photo credit: <a href="https://www.thekitchn.com/brown-sugar-bacon-brussels-sprouts-23312894">thekitchn</a></p>
+                </div>
+                <!-- End of Step 7 - Add at least one image -->
+
+                <!-- Start of div for list of ingredients -->
+                <div>
+                    <!-- Start of Step 5 - Add an unordered list of ingredients -->
+                    <h3 id="smallerHeaders-ingredients">Ingredients:</h3>
+                    <ul>
+                        <!-- Start of list -->
+                        <li>5 tablespoons olive oil, divided</li>
+                        <li>2 tablespoons packed light or dark brown sugar</li>
+                        <li>1/2 teaspoon kosher salt</li>
+                        <li>1/2 teaspoon freshly ground black pepper</li>
+                        <li>1 pound Brussels sprouts
+                        </li>
+                        <li>3 slices thick-cut bacon (about 4 ounces)</li>
+                        <!-- End of list -->
+                    </ul>
+                    <!-- End of Step 5 - Add an unordered list of ingredients -->
+                </div>
+                <!-- End of div for list of ingredients -->
             </div>
-        </div>
-        <!-- End of class left -->
-        
-        <!-- Start of class right -->
-        <div class="right col-xs-6">
-            <!-- Start of sub-title for steps -->
-            <h3 id="smallerHeaders">Steps:</h3>
-            <!-- End of sub-title for steps -->            
-            <!-- Start of Step 6 - Add an ordered list of the steps required to make the dish -->
-            <ol>
-            <!-- Start of list -->
-                <li>Heat a large frying pan over medium heat. Meanwhile, place 3 tablespoons of the olive oil, 2 tablespoons packed brown sugar, 1/2 teaspoon kosher salt, and 1/2 teaspoon black pepper in a large bowl and stir to combine. Trim and halve 1 pound Brussels sprouts. Add the sprouts to the bowl and toss to combine. Dice 3 thick-cut bacon slices.</li>
+            <!-- End of ".left col-xs-6" div-->
 
-                <li>Add the bacon and remaining 2 tablespoons olive oil to the pan. Cook, stirring occasionally, until the bacon is golden brown and crisp, 5 to 7 minutes. Using a slotted spoon, transfer the bacon to a paper towel-lined plate.</li>
+            <!-- Start of class right -->
+            <div class="right col-12">
+                <!-- Start of sub-title for steps -->
+                <h3 id="smallerHeaders">Steps:</h3>
+                <!-- End of sub-title for steps -->    
 
-                <li>Add the Brussels sprouts to the pan and arrange cut-side down in a single layer. Cook undisturbed until the cut-sides are dark golden brown, about 4 minutes. Return the bacon to the pan and toss to combine. Cook, stirring occasionally, until the sprouts are crisp tender, 3 to 4 minutes more.</li>
+                <!-- Start of Step 6 - Add an ordered list of the steps required to make the dish -->
+                <ol>
+                    <!-- Start of list -->
+                    <li>Heat a large frying pan over medium heat. Meanwhile, place 3 tablespoons of the olive oil, 2 tablespoons packed brown sugar, 1/2 teaspoon kosher salt, and 1/2 teaspoon black pepper in a large bowl and stir to combine. Trim and halve 1 pound Brussels sprouts. Add the sprouts to the bowl and toss to combine. Dice 3 thick-cut bacon slices.</li>
+
+                    <li>Add the bacon and remaining 2 tablespoons olive oil to the pan. Cook, stirring occasionally, until the bacon is golden brown and crisp, 5 to 7 minutes. Using a slotted spoon, transfer the bacon to a paper towel-lined plate.</li>
+
+                    <li>Add the Brussels sprouts to the pan and arrange cut-side down in a single layer. Cook undisturbed until the cut-sides are dark golden brown, about 4 minutes. Return the bacon to the pan and toss to combine. Cook, stirring occasionally, until the sprouts are crisp tender, 3 to 4 minutes more.</li>
                 <!-- End of list -->
-            </ol>
+                </ol>
+
+            <hr /> <!-- adding Extentions(Optionals): add <hr> -->
+
             <h3 class="smallerHeaders">Other Brussel Sprouts Recipes to try</h3>
-        <!-- End of Step 6 - Add an ordered list of the steps required to make the dish -->
-    
-        <hr /> <!-- adding Extentions(Optionals): add <hr> -->
 
-        <!-- Start of Step 8 - Add links to similar recipes you found online -->
-        <!-- Start of sub-title for Step 8 -->
+            <!-- End of Step 6 - Add an ordered list of the steps required to make the dish -->
 
+            <hr /> <!-- adding Extentions(Optionals): add <hr> -->
 
-
+            <!-- Start of Step 8 - Add links to similar recipes you found online -->
             <!-- Start of sub-title for Step 8 -->
-             <!-- Extentions(Optional): turn links into buttons -->
+            <!-- Extentions(Optional): turn links into buttons -->
             <!-- Adding images so that the buttons makes more sense (at least in my head) -->
+            <!-- each additional recipe will have it's own div -->
             <div class = "otherRecipesDiv">
                 <strong>Kung Pao Brussel Sprouts</strong>
                 <br>
@@ -118,19 +132,24 @@
 
             <!-- End of Extentions(Optional): turn links into buttons -->
             <!-- End of Step 8 - Add links to similar recipes you found online -->
+            </div>
+            <!-- End of div class right -->
         </div>
-        <!-- End of div class right -->
-        
+        <!-- End of wrapper -->
+
         <!-- Bootstrap for JS -->
         <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
         <!-- End of Bootstrap for JS -->
+
     </body>
     <!-- End of body -->
 
     <!-- Start of footer -->
     <footer>
-        Thank you for visiting us! Follow us on:
+        <p>Thank you for visiting us! Follow us on:</p>
     </footer>
+    <!-- end of footer -->
+
 </html>
