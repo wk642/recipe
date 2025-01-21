@@ -1,20 +1,24 @@
-.moo-lah-lah-regular {
+.moo-lah-lah-regular 
+{
     font-family: "Moo Lah Lah", serif;
     font-weight: 400;
     font-style: normal;
-  }  
+}  
 
-.selector-for-some-widget {
+.selector-for-some-widget 
+{
   box-sizing: content-box;
 }
 
-body{
+body
+{
     background-color:#57d6ff;
     margin : 0px auto;
     font-size: 25px;
 }
 
-h1, h2{
+h1, h2
+{
     color: #ff8057;
     font-family: "Moo Lah Lah", serif;
     font-weight: 400;
@@ -26,23 +30,32 @@ h1, h2{
     border: 10px solid black;
     border-radius: 35px;
 }
-p{
+
+p
+{
     color: #36869f;
 }
 
-.description{
+.description
+{
     width: 600px;
     font-size: 100%;
     color: darkblue
 }
-h3, .smallerheader{
+
+h3, .smallerheader
+{
     width: 600px;
     margin-top: -10px;
 }
-#youtubeVideo{
+
+#youtubeVideo
+{
     margin : 0px auto;
 }
-.left{
+
+.left
+{
     width: 600px;
     height: 1000px;
     float: left;
@@ -50,7 +63,8 @@ h3, .smallerheader{
 
 }
 
-.right{
+.right
+{
     width: 600px;
     height: 1000px;
     float: left;
@@ -58,15 +72,18 @@ h3, .smallerheader{
     margin-right: 50px;
 }
 
-.smallerheader-ingredients{
+.smallerheader-ingredients
+{
     margin: -80px;
 }
 
-.otherRecipesDiv{
+.otherRecipesDiv
+{
     width: 250px;
     float: left;
 }
 
-footer{
+footer
+{
     float: left;
 }
