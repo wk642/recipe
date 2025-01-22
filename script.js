@@ -23,6 +23,7 @@ checkbox.id = "id";
 
 // create a label for the checkbox
 let label = document.createElement("label");
+label.className = "checked";
 
 // assign the attributes to the label tag
 label.htmlFor = "id";

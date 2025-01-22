@@ -78,3 +78,8 @@ footer
 {
     float: left;
 }
+
+.checked
+{
+    text-decoration: line-through;
+}
