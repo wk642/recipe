@@ -121,14 +121,16 @@ footer{
   border-radius:  50%;
 }
 
-@media (max-width: 1080px) {
-  img {
-    width: 100%;
+
+@media (min-width: 0px) and (max-width: 1140px){
+  header{
+    background-color: lightcoral;
   }
 }
 
-@media (min-width: 1081px) {
+@media (min-width: 1140px) {
   body {
-    background-color: lightcoral;
+    background-color: #F8CF7F;
+
   }
 }
