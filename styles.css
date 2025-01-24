@@ -3,70 +3,86 @@
 }
 
 body {
-    background-color:#8af6eb7e;
-    margin : 0px auto;
-    font-size: 25px;
+  background-color:#8af6eb7e;
+  margin : 0px auto;
+  font-size: 25px;
 }
 
 h1, h2 {
-    color: #ff8057;
-    font-family: "Mynerve", serif;
-    font-size: 200%;
-    text-align: center;
-    background: lightgrey;
-    text-shadow: rgb(0, 0, 0) 1px 0 10px;
-    border: 10px solid black;
-    border-radius: 35px;
+  color: #ff8057;
+  font-family: "Mynerve", serif;
+  font-size: 200%;
+  text-align: center;
+  background: lightgrey;
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
+  border: 10px solid black;
+  border-radius: 35px;
 }
 
 p {
-    color: #36869f;
+  color: #36869f;
 }
 
 .description {
-    width: 600px;
-    font-size: 100%;
-    color: darkblue
+  width: 600px;
+  font-size: 100%;
+  color: darkblue
 }
 
 h3, .smallerheader {
-    width: 600px;
-    margin-top: -10px;
+  width: 600px;
+  margin-top: -10px;
 }
 
 #youtubeVideo {
-    margin : 0px auto;
+  margin : 0px auto;
 }
 
 .left {
-    width: 600px;
-    height: 1000px;
-    float: left;
-    margin-left: 50px;
-
+  width: 600px;
+  height: 1000px;
+  float: left;
+  margin-left: 50px;
 }
 
 .right {
-    width: 600px;
-    height: 1000px;
-    float: left;
-    margin-left: 100px;
-    margin-right: 50px;
+  width: 600px;
+  height: 1000px;
+  float: left;
+  margin-left: 100px;
+  margin-right: 50px;
 }
 
 .smallerheader-ingredients {
-    margin: -80px;
+  margin: -80px;
 }
 
 .otherRecipesDiv {
-    width: 250px;
-    float: left;
+  width: 250px;
+  float: left;
 }
 
 footer {
-    float: left;
+  float: left;
 }
 
 .checked {
-    text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+@media (max-width: 1080px) {
+  img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1081px) {
+  body {
+    background-color: lightcoral;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    background-color: lightgreen;
+  }
 }

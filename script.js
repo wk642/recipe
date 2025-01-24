@@ -15,7 +15,7 @@ ulIngredients.appendChild(checkbox);
 // Create label for checkbox
 let label = document.createElement("label");
 label.htmlFor = "id";
-label.appendChild(document.createTextNode("This create the label for checkbox"));
+label.appendChild(document.createTextNode("Add this list to my cart"));
 ulIngredients.appendChild(label);
 
 // Add eventlistener to strikethrough checked text
