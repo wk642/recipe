@@ -64,7 +64,7 @@ hr {
   margin: 1%;
 }
 
-.card {
+.card.navCard{
   width: 20%;
   float: left;
   height: 90%;
@@ -93,4 +93,30 @@ p {
 .description{
   width: 600px;
   text-align: center;
+}
+
+.card.individualRecipiesCard{
+  width: 50%;
+  float: left;
+  border: 5px solid black;
+  height: 59%;
+}
+
+.card.individualRecipiesCard img{
+  height: 300px;
+}
+.starRating.checked {
+  color: gold;
+}
+
+footer{
+  margin-top: 4%;
+}
+
+.fa {
+  font-size: 60%;
+  width: 10%;
+  text-align: center;
+  text-decoration: none;
+  border-radius:  50%;
 }
