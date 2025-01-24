@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .moo-lah-lah-regular {
     font-family: "Moo Lah Lah", serif;
     font-weight: 400;
@@ -69,4 +70,98 @@ h3, .smallerheader{
 
 footer{
     float: left;
+=======
+body {
+  background-color: #f0da98;
+
+}
+
+.container {
+  /* background-color: purple; */
+  margin: 0, auto;
+  width: 100%;
+}
+
+.topRow {
+  /* background-color: aqua; */
+  height: 2%;
+}
+
+#recipePageLogo {
+  width: 20%;
+  align-items: center;
+}
+
+.titles{
+  font-family: "Irish Grover", serif;
+  font-size: 200%;
+}
+
+#pageTitle, a {
+  text-decoration: none;
+  color: #0CC0D9;
+  text-shadow: lightsalmon 1px 0 10px;
+}
+
+hr {
+  border-top: 5px dashed #0CC0D9;
+}
+
+.mission {
+  color: grey;
+  margin-top: -1%;
+  margin-bottom: -1%;
+}
+
+.navigation {
+  width: 100%;
+  background-color: pink;
+  align-items: cneter;
+}
+
+ul {
+  list-style-type: none;
+  background-color: #0CC0D9;
+  width: 100%;
+}
+
+li {
+  float: left;
+  text-align: center;
+  align-items: center;
+  width: 13%;
+}
+
+li a {
+  display: block;
+  color: #F1F7EE;
+  text-align: center;
+  padding: 5%;
+
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #75C414;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+.card {
+  float: left;
+  width: 20%;
+  height: 100%;
+}
+#italicText {
+  font-style: italic;
+}
+
+.thirdRow {
+  margin-top: 3%;
+  font-family: "Irish Grover", serif;
+  font-size: 200%;
+  color: grey;
+>>>>>>> Stashed changes
 }
