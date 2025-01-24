@@ -1,147 +1,55 @@
-<<<<<<< Updated upstream
-.moo-lah-lah-regular {
-    font-family: "Moo Lah Lah", serif;
-    font-weight: 400;
-    font-style: normal;
-  }  
-
-.selector-for-some-widget {
-  box-sizing: content-box;
-}
-
-body{
-    background-color:#57d6ff;
-    margin : 0px auto;
-    font-size: 25px;
-}
-
-h1, h2{
-    color: #ff8057;
-    font-family: "Moo Lah Lah", serif;
-    font-weight: 400;
-    font-style: normal;   
-    font-size: 450%;
-    text-align: center;
-    background: lightgrey;
-    text-shadow: rgb(0, 0, 0) 1px 0 10px;
-    border: 10px solid black;
-    border-radius: 35px;
-}
-p{
-    color: #36869f;
-}
-
-.description{
-    width: 600px;
-    font-size: 100%;
-    color: darkblue
-}
-h3, .smallerheader{
-    width: 600px;
-    margin-top: -10px;
-}
-#youtubeVideo{
-    margin : 0px auto;
-}
-.left{
-    width: 600px;
-    height: 1000px;
-    float: left;
-    margin-left: 50px;
-
-}
-
-.right{
-    width: 600px;
-    height: 1000px;
-    float: left;
-    margin-left: 100px;
-    margin-right: 50px;
-}
-
-.smallerheader-ingredients{
-    margin: -80px;
-}
-
-.otherRecipesDiv{
-    width: 250px;
-    float: left;
-}
-
-footer{
-    float: left;
-=======
 body {
-  background-color: #f0da98;
-
-}
-
-.container {
-  /* background-color: purple; */
-  margin: 0, auto;
-  width: 100%;
-}
-
-.topRow {
-  /* background-color: aqua; */
-  height: 2%;
+  background-color:#F8CF7F;
+  margin : 0px auto;
 }
 
 #recipePageLogo {
-  width: 20%;
-  align-items: center;
+  width: 30%;
+  border-radius: 50%;
+  padding-top: 3%;
 }
 
-.titles{
+.titles {
   font-family: "Irish Grover", serif;
   font-size: 200%;
+  color: #00C4DE;
 }
 
-#pageTitle, a {
+a {
   text-decoration: none;
-  color: #0CC0D9;
-  text-shadow: lightsalmon 1px 0 10px;
 }
 
 hr {
-  border-top: 5px dashed #0CC0D9;
+  border-top: 30px dashed #00C4DE;
 }
 
 .mission {
-  color: grey;
-  margin-top: -1%;
-  margin-bottom: -1%;
+  color: #40494d;
 }
 
-.navigation {
-  width: 100%;
-  background-color: pink;
-  align-items: cneter;
-}
-
-ul {
+.nav ul {
   list-style-type: none;
-  background-color: #0CC0D9;
   width: 100%;
+  margin: 1%;
+  background-color: #00C4DE;
 }
 
-li {
+.nav li {
   float: left;
-  text-align: center;
-  align-items: center;
-  width: 13%;
+  width: 14%;
+  font-family: "Mynerve", serif;
+  font-size: 134%;
 }
 
-li a {
+.nav li a {
   display: block;
-  color: #F1F7EE;
+  color: white;
   text-align: center;
-  padding: 5%;
-
+  padding: 13%;
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+.nav li a:hover:not(.active) {
   background-color: #75C414;
 }
 
@@ -149,19 +57,40 @@ li a:hover:not(.active) {
   background-color: #04AA6D;
 }
 
-.card {
-  float: left;
-  width: 20%;
-  height: 100%;
+#searchBarId {
+  width: 90%;
+  background: linear-gradient(90deg,white,#03C6E0); 
+  padding: 1%;
+  margin: 1%;
 }
-#italicText {
-  font-style: italic;
+
+.card {
+  width: 20%;
+  float: left;
+  height: 90%;
+  padding: -1%;
+  border: 10px solid black;
 }
 
 .thirdRow {
-  margin-top: 3%;
   font-family: "Irish Grover", serif;
-  font-size: 200%;
-  color: grey;
->>>>>>> Stashed changes
+  color: #00C4DE;
+  margin-top: 3%;
+}
+
+#youtubeVideo {
+  width: 75%;
+  border: 0;
+  display: block;
+  margin: auto;
+}
+
+p {
+  font-family: "Mynerve", serif;
+  font-size: 120%;
+}
+
+.description{
+  width: 600px;
+  text-align: center;
 }
