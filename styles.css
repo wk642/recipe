@@ -120,3 +120,15 @@ footer{
   text-decoration: none;
   border-radius:  50%;
 }
+
+@media (max-width: 1080px) {
+  img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1081px) {
+  body {
+    background-color: lightcoral;
+  }
+}

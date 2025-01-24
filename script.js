@@ -27,3 +27,6 @@ checkbox.addEventListener("click", function() {
     label.classList.remove("checked");
   }
 });
+
+let ingredietnListLi = document.getElementById("ingredientList li");
+console.log(ingredientlistLi);git
