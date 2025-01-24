@@ -1,200 +1,155 @@
 <!DOCTYPE html>
 <html lang = "en">
-    <!-- Start of header -->
-    <head>
-        <title>Recipe Page</title>
-        <meta charset = "utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <title>Recipe Page</title>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- Start of Bootstrap -->
-        <!-- CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <!-- End of Bootstrap -->
+    <!--CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 
-        <link rel="stylesheet" href="styles.css">
+    <!--Google Font: MooLahLah-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap" rel="stylesheet">
+    <!--Google Font: Mynerve-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
+  </head>
 
-        <!-- start of adding google font - moo lah lah -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap" rel="stylesheet">
-        <!-- end of adding google font -->
+    <div class="container">
+      <!-- Bootstrap NavBar -->
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">Navbar</a>
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
-        
-    </head>
-    <!-- End of header -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></button>
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-    <!-- Start of body -->
-    <body>
-        <!-- Phase 3, step 4 create a containter - all your current HTML body code goes here -->
-        <div class="container">
-            <!-- Phase3, step3-Containers for the Navigation Bar and Content -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
 
-            <div class="container-fluid">
-                <!-- navbar code will go here (Step 4) -->
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                  
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
-                          </a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                          </div>
-                        </li>
-                        <!-- <li class="nav-item">
-                          <a class="nav-link disabled" href="#">Disabled</a>
-                        </li> -->
-                      </ul>
-                      <!-- <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                      </form> -->
-                    </div>
-                  </nav>
-              </div>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
 
-            <!-- End of Phase 3, step3-Containers for the Navigation Bar and Content -->
-            <!-- Step 03: title -->
-            <h1> Brown Sugar and Bacon Brussels Sprouts</h1>
-            <!-- End of Step 03: title -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown
+                </a>
 
-             <!-- Start of Extensions (optional): Insert a YouTube video -->
-            <iframe id="youtubeVideo" width="420" height="315" src="https://www.youtube.com/embed/4PqZU-F3UFw?si=N4F5Sfn15WV_WJhc&amp;controls=0"></iframe>
-
-            <p> Video Credit : <a href="https://www.youtube.com/watch?v=4PqZU-F3UFw">Fresh Looks & Cooks </a></p>
-
-            <!-- End of Extensions (optional): Insert a YouTube video -->
-
-            <!-- Step 04: breif description -->
-            <!-- Start of div ".top col-xs12" -->
-            <div class="top col-12">
-                <!--add description before image -->
-                <p class="description">Uhhhh... Brussel Sprouts with brown sugar and bacon!?!?!? like what can go wrong? NOTHING!</p>
-            </div>
-            <!-- End of div ".top col-xs12" -->
-            <!-- End of Step 04: breif description -->
-
-            <!-- Start of ".left col-xs-6" -->
-            <div class="left col-12">
-                <!-- Step 7 - Add at least one image -->
-                <div>
-                    <!-- width of the image is at least 600 pixels -->
-                    <img src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_1456,h_1092/k%2FPhoto%2FRecipes%2F2022-03_Brown-Sugar-Bacon-Brussels-Sprouts%2F2022-03-16_ATK-0113", width="600px"/>
-
-                    <!-- Underneath the image, include a photo credit that links to the source of the image. -->
-                    <p>Photo credit: <a href="https://www.thekitchn.com/brown-sugar-bacon-brussels-sprouts-23312894">thekitchn</a></p>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
                 </div>
-                <!-- End of Step 7 - Add at least one image -->
+              </li>
 
-                <!-- Start of div for list of ingredients -->
-                <div>
-                    <!-- Start of Step 5 - Add an unordered list of ingredients -->
-                    <h3 id="smallerHeaders-ingredients">Ingredients:</h3>
-                    <ul>
-                        <!-- Start of list -->
-                        <li>5 tablespoons olive oil, divided</li>
-                        <li>2 tablespoons packed light or dark brown sugar</li>
-                        <li>1/2 teaspoon kosher salt</li>
-                        <li>1/2 teaspoon freshly ground black pepper</li>
-                        <li>1 pound Brussels sprouts
-                        </li>
-                        <li>3 slices thick-cut bacon (about 4 ounces)</li>
-                        <!-- End of list -->
-                    </ul>
-                    <!-- End of Step 5 - Add an unordered list of ingredients -->
-                </div>
-                <!-- End of div for list of ingredients -->
-            </div>
-            <!-- End of ".left col-xs-6" div-->
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+              </li>
+            </ul>
 
-            <!-- Start of class right -->
-            <div class="right col-12">
-                <!-- Start of sub-title for steps -->
-                <h3 id="smallerHeaders">Steps:</h3>
-                <!-- End of sub-title for steps -->    
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+      </div>
+      
+      <!-- Start of the recipie-->
+      <h1> Brown Sugar and Bacon Brussels Sprouts</h1>
 
-                <!-- Start of Step 6 - Add an ordered list of the steps required to make the dish -->
-                <ol>
-                    <!-- Start of list -->
-                    <li>Heat a large frying pan over medium heat. Meanwhile, place 3 tablespoons of the olive oil, 2 tablespoons packed brown sugar, 1/2 teaspoon kosher salt, and 1/2 teaspoon black pepper in a large bowl and stir to combine. Trim and halve 1 pound Brussels sprouts. Add the sprouts to the bowl and toss to combine. Dice 3 thick-cut bacon slices.</li>
+      <!-- Emedding Youtube video-->
+      <iframe id="youtubeVideo" width="420" height="315" src="https://www.youtube.com/embed/4PqZU-F3UFw?si=N4F5Sfn15WV_WJhc&amp;controls=0"></iframe>
 
-                    <li>Add the bacon and remaining 2 tablespoons olive oil to the pan. Cook, stirring occasionally, until the bacon is golden brown and crisp, 5 to 7 minutes. Using a slotted spoon, transfer the bacon to a paper towel-lined plate.</li>
+      <p> Video Credit : <a href="https://www.youtube.com/watch?v=4PqZU-F3UFw">Fresh Looks & Cooks </a></p>
 
-                    <li>Add the Brussels sprouts to the pan and arrange cut-side down in a single layer. Cook undisturbed until the cut-sides are dark golden brown, about 4 minutes. Return the bacon to the pan and toss to combine. Cook, stirring occasionally, until the sprouts are crisp tender, 3 to 4 minutes more.</li>
-                <!-- End of list -->
-                </ol>
+      <!-- "top" - breif description-->
+      <div class="top col-12">
+        <p class="description">Uhhhh... Brussel Sprouts with brown sugar and bacon!?!?!? like what can go wrong? NOTHING!</p>
+      </div>
 
-            <hr /> <!-- adding Extentions(Optionals): add <hr> -->
-
-            <h3 class="smallerHeaders">Other Brussel Sprouts Recipes to try</h3>
-
-            <!-- End of Step 6 - Add an ordered list of the steps required to make the dish -->
-
-            <hr /> <!-- adding Extentions(Optionals): add <hr> -->
-
-            <!-- Start of Step 8 - Add links to similar recipes you found online -->
-            <!-- Start of sub-title for Step 8 -->
-            <!-- Extentions(Optional): turn links into buttons -->
-            <!-- Adding images so that the buttons makes more sense (at least in my head) -->
-            <!-- each additional recipe will have it's own div -->
-            <div class = "otherRecipesDiv">
-                <strong>Kung Pao Brussel Sprouts</strong>
-                <br>
-                <img src="https://cookieandkate.com/images/2015/12/kung-pao-brussels-sprouts-recipe-1-1.jpg", width="200px" alt="KungPaoBrusselsSprouts"/>
-                <br>
-                <button><a href="https://cookieandkate.com/kung-pao-brussels-sprouts-recipe/">Click here to look at this recipe</a></button> 
-            </div>
-
-            <hr /> <!-- adding Extentions(Optionals): add <hr> -->
-
-            <div class = "otherRecipesDiv">
-                <strong>Parmesan Crusted Brussels Sprouts</strong>
-                <br>
-                <img src="https://hips.hearstapps.com/hmg-prod/images/parmesan-crusted-brussels-sprouts-lead-66ec745c69895.jpg?crop=1xw:1xh;center,top&resize=1200:*", width="200px" alt="ParmesanCrustedBrusselsSprouts"/>
-                <br>
-                <button><a href="https://www.delish.com/cooking/recipe-ideas/a55370/parmesan-brussels-sprouts-recipe/">Click here to look at this recipe</a></button> 
-            </div>
-
-            <hr /> <!-- adding Extentions(Optionals): add <hr> -->
-
-            <!-- End of Extentions(Optional): turn links into buttons -->
-            <!-- End of Step 8 - Add links to similar recipes you found online -->
-            </div>
-            <!-- End of div class right -->
+      <!-- "left" - iimage & ingredients list-->
+      <div class="left col-12">
+        <!-- image -->
+        <div>
+          <img src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_1456,h_1092/k%2FPhoto%2FRecipes%2F2022-03_Brown-Sugar-Bacon-Brussels-Sprouts%2F2022-03-16_ATK-0113", width="600px"/>
+          
+          <p>Photo credit: <a href="https://www.thekitchn.com/brown-sugar-bacon-brussels-sprouts-23312894">thekitchn</a></p>
         </div>
-        <!-- End of container -->
+        
+        <!-- Ingredients -->
+        <div>
+          <h3 id="smallerHeaders-ingredients">Ingredients:</h3>
+          <ul id="ingredientsList">
+            <li>5 tablespoons olive oil, divided</li>
+            <li>2 tablespoons packed light or dark brown sugar</li>
+            <li>1/2 teaspoon kosher salt</li>
+            <li>1/2 teaspoon freshly ground black pepper</li>
+            <li>1 pound Brussels sprouts
+            </li>
+            <li>3 slices thick-cut bacon (about 4 ounces)</li>
+          </ul>
+        </div>
+      </div>
 
-        <!-- Bootstrap for JS -->
-        <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
-        <!-- End of Bootstrap for JS -->
+      <!-- "right" - steps and simlar recipe-->
+      <div class="right col-12">
+        <h3 id="smallerHeaders">Steps:</h3>
+        <ol>
+          <li>Heat a large frying pan over medium heat. Meanwhile, place 3 tablespoons of the olive oil, 2 tablespoons packed brown sugar, 1/2 teaspoon kosher salt, and 1/2 teaspoon black pepper in a large bowl and stir to combine. Trim and halve 1 pound Brussels sprouts. Add the sprouts to the bowl and toss to combine. Dice 3 thick-cut bacon slices.</li>
 
-    </body>
-    <!-- End of body -->
+          <li>Add the bacon and remaining 2 tablespoons olive oil to the pan. Cook, stirring occasionally, until the bacon is golden brown and crisp, 5 to 7 minutes. Using a slotted spoon, transfer the bacon to a paper towel-lined plate.</li>
 
-    <!-- Start of footer -->
-    <footer>
-        <p>Thank you for visiting us! Follow us on:</p>
-    </footer>
-    <!-- end of footer -->
+          <li>Add the Brussels sprouts to the pan and arrange cut-side down in a single layer. Cook undisturbed until the cut-sides are dark golden brown, about 4 minutes. Return the bacon to the pan and toss to combine. Cook, stirring occasionally, until the sprouts are crisp tender, 3 to 4 minutes more.</li>
+        </ol>
 
+        <hr />
+
+        <!-- Other Recipies-->
+        <h3 class="smallerHeaders">Other Brussel Sprouts Recipes to try</h3>
+        <hr />
+
+        <div class = "otherRecipesDiv">
+          <strong>Kung Pao Brussel Sprouts</strong>
+          <br>
+          <img src="https://cookieandkate.com/images/2015/12/kung-pao-brussels-sprouts-recipe-1-1.jpg", width="200px" alt="KungPaoBrusselsSprouts"/>
+          <br>
+          <button><a href="https://cookieandkate.com/kung-pao-brussels-sprouts-recipe/">Click here to look at this recipe</a></button> 
+      </div>
+
+      <hr />  
+
+      <div class = "otherRecipesDiv">
+        <strong>Parmesan Crusted Brussels Sprouts</strong>
+        <br>
+        <img src="https://hips.hearstapps.com/hmg-prod/images/parmesan-crusted-brussels-sprouts-lead-66ec745c69895.jpg?crop=1xw:1xh;center,top&resize=1200:*", width="200px" alt="ParmesanCrustedBrusselsSprouts"/>
+        <br>
+        <button><a href="https://www.delish.com/cooking/recipe-ideas/a55370/parmesan-brussels-sprouts-recipe/">Click here to look at this recipe</a></button> 
+      </div>
+
+      <hr />
+
+      </div>
+    </div>
+    <!-- Bootstrap for JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+  </body>
+  <footer>
+    <p>Thank you for visiting us! Follow us on:</p>
+  </footer>
 </html>
